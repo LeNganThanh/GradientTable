@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+    to right,
+    rgba(5, 121, 156, 0.767),
+    rgba(90, 104, 226, 0.747)
+  );
+}
+.lila {
+  width: 60vmax;
+  margin: 10% auto;
+  background: linear-gradient(to right, rgb(82, 162, 236), rgb(171, 150, 250));
+  border-spacing: 2rem 1rem;
+  font-size: 1.5rem;
+  color: rgb(247, 243, 238);
+  border-collapse: collapse;
+}
+.lila thead {
+  background: linear-gradient(to right, rgb(149, 122, 245), rgb(88, 88, 129));
+  text-align: left;
+}
+.lila th,
+.lila td {
+  padding: 1rem;
+}
+.lila tbody {
+  background-color: rgba(240, 248, 255, 0.096);
+}
+.lila td:nth-child(2), .lila tr:nth-child(4){
+    background-color: rgba(240, 248, 255, 0.267);
+}
